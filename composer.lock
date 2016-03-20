@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7ff4735eb139fe93c5fa08e32da4d0c5",
-    "content-hash": "d8b1a481a8e33dca4ebc68393a15dbc0",
+    "hash": "1a762091fda7cda63cdaf20c01f1a7dd",
+    "content-hash": "bd0ee84951611577082c0d33dda204e9",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -54,6 +54,53 @@
                 "mobile-first",
                 "responsive",
                 "web"
+            ]
+        },
+        {
+            "name": "bower-asset/fullpage.js",
+            "version": "2.7.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alvarotrigo/fullPage.js.git",
+                "reference": "c03ce80ba6bfdd68564027b0dc51cdbe109fc3c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alvarotrigo/fullPage.js/zipball/c03ce80ba6bfdd68564027b0dc51cdbe109fc3c7",
+                "reference": "c03ce80ba6bfdd68564027b0dc51cdbe109fc3c7",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.6.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "jquery.fullPage.js",
+                    "jquery.fullPage.css",
+                    "jquery.fullPage.scss",
+                    "vendors/jquery.easings.min.js",
+                    "vendors/jquery.slimscroll.min.js"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "examples"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Create  beautiful fullscreen scrolling websites",
+            "keywords": [
+                "jquery",
+                "one_page",
+                "scrolling",
+                "single_page",
+                "sliding"
             ]
         },
         {
@@ -176,16 +223,16 @@
         },
         {
             "name": "bower-asset/yii2-pjax",
-            "version": "v2.0.5",
+            "version": "v2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/jquery-pjax.git",
-                "reference": "6818718408086db6bdcf33649cecb86b6b4f9b67"
+                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/6818718408086db6bdcf33649cecb86b6b4f9b67",
-                "reference": "6818718408086db6bdcf33649cecb86b6b4f9b67",
+                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/60728da6ade5879e807a49ce59ef9a72039b8978",
+                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978",
                 "shasum": ""
             },
             "require": {
@@ -198,6 +245,7 @@
                     ".travis.yml",
                     "Gemfile",
                     "Gemfile.lock",
+                    "CONTRIBUTING.md",
                     "vendor/",
                     "script/",
                     "test/"
@@ -213,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "e4499350d8a94c4c693a7e784295eff7a717ae67"
+                "reference": "e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/e4499350d8a94c4c693a7e784295eff7a717ae67",
-                "reference": "e4499350d8a94c4c693a7e784295eff7a717ae67",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5",
+                "reference": "e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5",
                 "shasum": ""
             },
             "require": {
@@ -265,7 +313,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-02-09 22:09:46"
+            "time": "2016-03-18 13:28:11"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -312,17 +360,74 @@
             "time": "2015-08-05 01:03:42"
         },
         {
-            "name": "semantic/ui",
-            "version": "2.1.8",
+            "name": "ivan-chkv/yii2-jquery-fullpage",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Semantic-Org/Semantic-UI.git",
-                "reference": "04a3c48a0dd3bd9b440b59036004409239a6db16"
+                "url": "https://github.com/ivan-chkv/yii2-jquery-fullpage.git",
+                "reference": "1512df0fb7500e7f7c12576ab7613be78c332fbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/04a3c48a0dd3bd9b440b59036004409239a6db16",
-                "reference": "04a3c48a0dd3bd9b440b59036004409239a6db16",
+                "url": "https://api.github.com/repos/ivan-chkv/yii2-jquery-fullpage/zipball/1512df0fb7500e7f7c12576ab7613be78c332fbe",
+                "reference": "1512df0fb7500e7f7c12576ab7613be78c332fbe",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fullpage.js": "2.7.*",
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "*",
+                "yiisoft/yii2-codeception": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\jquery\\fullpage\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Chistyakov",
+                    "email": "ivan.chkv@gmail.com"
+                }
+            ],
+            "description": "Yii 2 jQuery FullPage Asset",
+            "homepage": "http://alvarotrigo.com/fullPage/",
+            "keywords": [
+                "fullpage",
+                "jquery",
+                "one-page",
+                "scrolling",
+                "single-page",
+                "sliding",
+                "yii2"
+            ],
+            "time": "2015-12-12 08:36:50"
+        },
+        {
+            "name": "semantic/ui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+                "reference": "42e41c2699691ff59c148a41a326a9b874a0f08e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/42e41c2699691ff59c148a41a326a9b874a0f08e",
+                "reference": "42e41c2699691ff59c148a41a326a9b874a0f08e",
                 "shasum": ""
             },
             "type": "library",
@@ -346,7 +451,7 @@
                 "semantic",
                 "ui"
             ],
-            "time": "2016-01-08 04:45:47"
+            "time": "2016-03-18 15:58:18"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -407,12 +512,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "5daf281b63f7cc5c182bd27eb0dbcd499baf230d"
+                "reference": "7d87dc78efb5fbbec3d94bce015e638b39ce5b4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/5daf281b63f7cc5c182bd27eb0dbcd499baf230d",
-                "reference": "5daf281b63f7cc5c182bd27eb0dbcd499baf230d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7d87dc78efb5fbbec3d94bce015e638b39ce5b4f",
+                "reference": "7d87dc78efb5fbbec3d94bce015e638b39ce5b4f",
                 "shasum": ""
             },
             "require": {
@@ -493,7 +598,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-02-29 08:40:58"
+            "time": "2016-03-15 22:53:48"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -501,12 +606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "ef941bc83ea63326e44769b922476dc1035ea551"
+                "reference": "361bd63975beefdb1f87a36f96957de67023f865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/ef941bc83ea63326e44769b922476dc1035ea551",
-                "reference": "ef941bc83ea63326e44769b922476dc1035ea551",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/361bd63975beefdb1f87a36f96957de67023f865",
+                "reference": "361bd63975beefdb1f87a36f96957de67023f865",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +648,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2016-01-24 17:03:09"
+            "time": "2016-03-17 03:32:21"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -598,12 +703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "2cca1bb86444a6438b0720f8c60120a400982366"
+                "reference": "26b30d94b44dc290d5ad1ecbec946e09fc275306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/2cca1bb86444a6438b0720f8c60120a400982366",
-                "reference": "2cca1bb86444a6438b0720f8c60120a400982366",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/26b30d94b44dc290d5ad1ecbec946e09fc275306",
+                "reference": "26b30d94b44dc290d5ad1ecbec946e09fc275306",
                 "shasum": ""
             },
             "require": {
@@ -640,7 +745,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2015-12-07 11:40:31"
+            "time": "2016-03-17 03:59:00"
         }
     ],
     "packages-dev": [
@@ -677,12 +782,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "416a132083aa6f19a6ac42ae0b31fdb26159e72f"
+                "reference": "588da2fff1b9da3acb9b6e1d7395e820102bde01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/416a132083aa6f19a6ac42ae0b31fdb26159e72f",
-                "reference": "416a132083aa6f19a6ac42ae0b31fdb26159e72f",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/588da2fff1b9da3acb9b6e1d7395e820102bde01",
+                "reference": "588da2fff1b9da3acb9b6e1d7395e820102bde01",
                 "shasum": ""
             },
             "require": {
@@ -719,7 +824,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-02-29 14:07:32"
+            "time": "2016-03-10 07:12:46"
         },
         {
             "name": "phpspec/php-diff",
@@ -761,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-codeception.git",
-                "reference": "ee239c244fd011f11c8827f97ebe7600d03f1841"
+                "reference": "865034d374852b22c3dceaa0f64f8709ab4b43b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/ee239c244fd011f11c8827f97ebe7600d03f1841",
-                "reference": "ee239c244fd011f11c8827f97ebe7600d03f1841",
+                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/865034d374852b22c3dceaa0f64f8709ab4b43b0",
+                "reference": "865034d374852b22c3dceaa0f64f8709ab4b43b0",
                 "shasum": ""
             },
             "require": {
@@ -798,7 +903,7 @@
                 "codeception",
                 "yii2"
             ],
-            "time": "2015-11-20 08:52:21"
+            "time": "2016-03-17 03:44:17"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -806,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0"
+                "reference": "78d03b5b4dd74744779ddb7843463e81e996b435"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0",
-                "reference": "e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/78d03b5b4dd74744779ddb7843463e81e996b435",
+                "reference": "78d03b5b4dd74744779ddb7843463e81e996b435",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +950,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2016-02-25 14:59:15"
+            "time": "2016-03-17 10:47:14"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -900,12 +1005,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "ce42838abcbef076ebaf46147671d518ae69d028"
+                "reference": "3a8ca6fb34ebb9da3d5fd6bdf12f3b447021ca66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/ce42838abcbef076ebaf46147671d518ae69d028",
-                "reference": "ce42838abcbef076ebaf46147671d518ae69d028",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/3a8ca6fb34ebb9da3d5fd6bdf12f3b447021ca66",
+                "reference": "3a8ca6fb34ebb9da3d5fd6bdf12f3b447021ca66",
                 "shasum": ""
             },
             "require": {
@@ -945,7 +1050,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2016-02-21 20:39:29"
+            "time": "2016-03-19 19:38:11"
         }
     ],
     "aliases": [],
