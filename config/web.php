@@ -61,9 +61,6 @@ $config = [
                 ]
             ]
         ],
-        'assetManager' => [
-            'basePath'=>'@webroot/web/assets'
-        ]
     ],
     'params' => $params
 ];
