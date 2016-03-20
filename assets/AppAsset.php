@@ -25,6 +25,7 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'signvote\semanticui\SemanticUiAsset',
+        'common\asset\SemanticUiAsset',
+        'common\asset\FullPagejsAsset',
     ];
 }

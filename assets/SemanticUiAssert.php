@@ -1,5 +1,5 @@
 <?php
-namespace signvote\semanticui;
+namespace common\asset;
 
 use yii\web\AssetBundle;
 

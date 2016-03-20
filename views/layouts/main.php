@@ -5,10 +5,8 @@
 
 use yii\helpers\Html;
 use app\assets\AppAsset;
-use signvote\semanticui\SemanticUiAsset;
 
 AppAsset::register($this);
-SemanticUiAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
