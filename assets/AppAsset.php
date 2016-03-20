@@ -8,6 +8,7 @@
 namespace app\assets;
 
 use yii\web\AssetBundle;
+use signvote\semanticui\SemanticUiAsset;
 
 /**
  * @author Qiang Xue <qiang.xue@gmail.com>
@@ -24,6 +25,6 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'signvote\semanticui\SemanticUiAsset',
     ];
 }
