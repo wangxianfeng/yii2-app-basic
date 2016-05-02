@@ -79,7 +79,7 @@ $this->title = Yii::t('constants', 'Welcome to signvote');
 					<div class="ui inverted link list">
 						<a href="http://www.yiiframework.com/" class="item" target="_blank">Yii Framework</a> 
 						<a href="http://semantic-ui.com/" class="item" target="_blank">Semantic UI</a> 
-						<a href="#" class="item">And all tech my loved</a> 
+						<a href="#" class="item">And all my loved friends</a> 
 					</div>
 				</div>
 				<div class="three wide column">
