@@ -60,7 +60,7 @@ $this->title = Yii::t('constants', 'Welcome to signvote');
 					<p>人写字的方式体现出一个人的性格，从签名来找志趣相投的朋友</p>
 				</div>
 				<div class="six wide right floated column">
-					<img src="" class="ui large bordered rounded image">
+					<img src="/images/xf/xianfeng_1365993585_93.jpg" class="ui large bordered rounded image">
 				</div>
 			</div>
 			<div class="row">
