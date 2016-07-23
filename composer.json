@@ -3,10 +3,10 @@
   "description" : "Yii 2 Basic Project Template",
   "require" : {
     "php" : ">=5.4.0",
-    "yiisoft/yii2" : ">=2.0.7",
+    "yiisoft/yii2" : ">=2.0.9",
     "yiisoft/yii2-bootstrap" : "*",
     "yiisoft/yii2-swiftmailer" : "*",
-    "semantic/ui" : ">=2.1.8",
+    "semantic/ui" : "dev-master",
     "ivan-chkv/yii2-jquery-fullpage" : ">=2.0.0"
   },
   "require-dev" : {
